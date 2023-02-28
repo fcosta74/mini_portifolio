@@ -89,32 +89,6 @@ aside ul a:hover{
     transition: 0.3s;
     color: white;
 }
-#inform{
-    width: 15rem;
-    margin: 0 auto;
-}
-.rede_sociais{
-    display: flex;
-    gap: 1em;
-    padding: 10px;
-}
-.rede{
-    font-size: 1.5em;
-}
-.rede_sociais a{
-    width: 35px;
-    height: 35px;
-    display: flex;
-    margin: 0;
-    gap: 5px;
-}
-.contato{
-    font-size: 1.5em;
-}
-.email{
-
-    font-size: 1.5em;
-}
 
 /* Footer */
 #inform{
@@ -158,7 +132,7 @@ footer h4{
         width: 155em;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .container{
         margin-left: 1em;
         margin-bottom: 0;
@@ -168,7 +142,7 @@ footer h4{
         font-size: 1em;
     }
     .novo_item{
-        width: 23em;
+        width: 20em;
     }
     nav ul{
         display: inline-block;
@@ -176,5 +150,11 @@ footer h4{
     nav a{
         font-size: .8em;
 
+    }
+    aside ul a{
+        color: black;
+        font-size: .8em;
+        font-weight: bold;
+        text-decoration: none;
     }
 }
