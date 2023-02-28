@@ -134,14 +134,15 @@ footer h4{
 }
 @media screen and (max-width: 400px) {
     .container{
+        margin-left: .5em;
         margin-bottom: 0;
         flex-direction: column;
     }
     .container h2{
-        font-size: 1em;
+        font-size: .8em;
     }
     .novo_item{
-        width: 19em;
+        width: 18em;
     }
     nav ul{
         display: inline-block;
